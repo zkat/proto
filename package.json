@@ -1,0 +1,28 @@
+{
+  "name": "proto",
+  "version": "0.0.0",
+  "description": "Alternative to 'new'",
+  "main": "proto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "prototype-oo",
+    "oop"
+  ],
+  "author": "Kat Marchán <kzm@sykosomatic.org>",
+  "licenses": [
+    {
+      "type": "CC0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zkat/proto"
+  },
+  "bugs": {
+    "url": "https://github.com/zkat/proto/issues"
+  },
+  "readmeFilename": "README.md"
+}
