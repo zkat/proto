@@ -2,7 +2,7 @@
   "name": "proto",
   "version": "0.0.0",
   "description": "Alternative to 'new'",
-  "main": "proto.js",
+  "main": "src/proto.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
