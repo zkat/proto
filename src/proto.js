@@ -1,9 +1,9 @@
 "use strict";
 
-let Genfun = require("genfun"),
+var Genfun = require("genfun"),
     addMethod = Genfun.addMethod;
 
-let init = new Genfun();
+var init = new Genfun();
 addMethod(init, [], function(){});
 
 /**
@@ -11,7 +11,7 @@ addMethod(init, [], function(){});
  * prototype-y.
  */
 function clone(parent) {
-  let initargs = [].slice.call(arguments, 1),
+  var initargs = [].slice.call(arguments, 1),
       obj = Object.create(parent || Object.prototype),
       initRet = init.apply(parent, [obj].concat(initargs));
   return typeof initRet === "object" ? initRet : obj;
