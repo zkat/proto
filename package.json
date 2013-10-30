@@ -4,7 +4,8 @@
   "description": "Alternative to 'new'",
   "main": "src/proto.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "make",
+    "test": "make test"
   },
   "keywords": [
     "prototype-oo",
