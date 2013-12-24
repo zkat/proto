@@ -1,10 +1,9 @@
 "use strict";
 
-var Genfun = require("genfun"),
-    addMethod = Genfun.addMethod;
+var Genfun = require("genfun");
 
 var init = new Genfun();
-addMethod(init, [], function(){});
+init.addMethod([], function(){});
 
 /**
  * Like `new`, but doesn't work off constructor functions and is more
@@ -26,4 +25,3 @@ module.exports = {
   parent: parent,
   init: init
 };
-
